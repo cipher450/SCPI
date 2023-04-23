@@ -1,6 +1,6 @@
 export const Data = {
-  server_url: "http://localhost:5000/",
-  clientHost_url:"http://loclahost:3000/"
+  server_url: "https://scpi-backend.onrender.com/", // http://localhost:5000/
+  clientHost_url:"https://scpi.onrender.com/" //http://loclahost:3000/
 };
 
 export const defaultSCPI_model = {
