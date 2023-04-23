@@ -1,0 +1,33 @@
+@media (max-width: 800px) {
+  .factContainer{
+   flex-direction: column;
+    width: fit-content;
+    margin: 2.5rem auto 2.5rem auto ;
+  }
+  .Card {
+    width: 95vw;
+  }
+  .moreinfo--content {
+    flex-direction: column;
+  }
+ 
+
+  .Dashboard--sideBar {
+    flex-basis: 25%;
+    min-width: 35vw;
+  }
+  .Dashboard--Main {
+    flex-basis: 70%;
+  }
+  .moreinfo--content{
+    flex-direction: column;
+  }
+  .moreinfo--scpi--body{
+    flex-direction: column;
+  }
+  .Filtre{
+    margin: 0;
+  }
+
+}
+ 

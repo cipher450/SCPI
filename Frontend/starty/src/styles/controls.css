@@ -1,0 +1,221 @@
+/* NAVBAR */
+.nav {
+  height: fit-content;
+  width: 100%;
+  border-bottom: #33333388 solid 1px;
+  background-color: rgb(29, 79, 187);
+  color: white;
+  position: relative;
+  padding: 5px;
+}
+
+.nav > .nav-header {
+  display: flex;
+  width: fit-content;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px 10px 10px 10px;
+}
+
+/* Agency CARD */
+.CardSearch {
+}
+.CardContainer--Warpper {
+  
+  margin-top: 10px;
+  width: 95vw;
+  margin: 0 auto;
+}
+.CardContainer {
+  width: auto;
+  margin: 10px 5px 10px 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.Card {
+  padding: 10px 25px 10px 25px;
+
+  border-radius: 20px;
+  transition: all ease-in-out 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Card--Header {
+  display: flex;
+  margin: 20px 5px 20px 5px;
+  gap: 128px;
+  align-items: center;
+  transition: all ease-in-out 0.2s;
+  padding: 10px;
+  border-radius: 12px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+.Card--Header > img {
+  border-radius: 100%;
+  transition: all ease-in-out 0.2s;
+}
+
+.Card--Header > span {
+  font-weight: 750;
+  font-size: 22px;
+}
+.Card--Body {
+  display: flex;
+  gap: 1.2rem;
+  margin: 1.25rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.Card--Body--inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px;
+  width: 180px;
+  transition: all ease-in-out 0.2s;
+}
+
+.Card--Footer {
+  margin: 20px 5px 20px 5px;
+  width: 100%;
+}
+.Card--Footer--inner {
+  display: flex;
+  gap: 1.25rem;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all ease-in-out 0.2s;
+
+}
+
+/*Agency Card--Animation*/
+
+.Card:hover > .Card--Header > img {
+  border-radius: 12px;
+}
+.Card:hover > .Card--Header {
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ 
+}
+.Card:hover > .Card--Header > img {
+  border-radius: 12px;
+}
+
+.Card:hover > .Card--Body > .Card--body-- > .Card--Body--inner{
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  
+}
+
+.Card:hover > .Card--Footer > .Card--Footer--inner {
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+/* SCPI Card */
+.ScpiCard--Container {
+  
+  margin: 25px 5px 25px 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 25px;
+
+}
+.ScpiCard {
+  box-shadow: 0px 0px 9px 0px rgba(40, 59, 94, 0.56);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ 
+.ScpiCard--Body {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.ScpiCard--Footer {
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+.ScpiCard--Footer:hover > a {
+    cursor: pointer;
+    color:#314e89;;
+   
+}
+/* END SCPI Card */
+.custom_input {
+  font-weight: 600;
+}
+.mini-card {
+  display: inline-block;
+  color: #314e89;
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 600;
+
+  background: #314e8949;
+  padding: 5px 8px;
+  border-radius: 4px;
+  min-width: 140px;
+}
+.Banner {
+  background-color: rgb(8, 53, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Filtre {
+
+  min-width: 300px;
+  margin: 35px auto;
+  padding: 18px;
+  background: #ffffff;
+  box-shadow: 0 0 4px #ccc;
+   
+
+  border-radius: 12px;
+  margin-left: 15px;
+}
+
+.Custom--Table{
+  overflow: scroll;
+ 
+  border-radius: 12px;
+  border: 1px solid gray;
+  width: 100%;
+}
